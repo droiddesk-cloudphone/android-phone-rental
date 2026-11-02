@@ -14,6 +14,10 @@ DroidDesk provides cloud-style access to physical Android smartphones. Your sess
 
 The device listing helps you choose a model, location and network connection. Depending on the phone, its connection may use mobile data or residential Wi-Fi. Check the current catalog for availability and supported features. [About DroidDesk](https://droiddesk.io/help/what-is-droiddesk).
 
+![DroidDesk Android phone rental catalog showing Samsung Galaxy devices by location, with availability indicators and Select Plan buttons.](assets/droiddesk-device-catalog.webp)
+
+*Choose a device by model and location, then select a rental plan. Check the live catalog for current availability.*
+
 ## Control an Android phone with your AI agent
 
 DroidDesk MCP connects a compatible AI assistant to the phones you authorize. The assistant can inspect the screen, open apps and websites, tap controls, type text, scroll, and check what happened after an action.
@@ -32,9 +36,21 @@ Access follows your key permissions and active rental. Available actions also de
 
 The web interface lets you view the phone and control it with your mouse and keyboard. An optional desktop client provides another way to connect. A browser-only rental limits the applications you can use on the phone; it does not mean that you must use a particular connection method.
 
+![DroidDesk remote Android phone control showing a connected Galaxy S22, its live screen, navigation controls and a text input panel.](assets/droiddesk-phone-control.webp)
+
+*Control a rented Android phone from your computer, with the device screen and text input tools in one view.*
+
+### Browser profiles
+
 DroidDesk Browser profiles keep browser data and settings together. They support cookies, language, time zone and optional HTTP or SOCKS5 proxies. Save and close a profile successfully before reopening it on another compatible phone. A saved browser profile does not preserve data from other Android apps.
 
+### Virtual camera in DroidDesk Browser
+
 For supported websites in DroidDesk Browser, the virtual camera can use an image, video or computer camera as its source. This feature applies to the browser, rather than every Android app. See the [web app guide](https://droiddesk.io/help/droiddesk-web-app).
+
+![DroidDesk Browser virtual camera displaying a selected cat image on a camera test website, with source, zoom, position and mirror controls.](assets/droiddesk-virtual-camera.webp)
+
+*Select a camera source and adjust its framing for a supported website in DroidDesk Browser.*
 
 ## Android automation and reusable templates
 
