@@ -48,6 +48,10 @@ If you want the agent to purchase additional rentals, enable that permission sep
 
 ## Connect your AI client
 
+![DroidDesk MCP connection wizard, step 1 of 5, showing Codex, Claude Code, Cursor and another MCP client as connection options.](../assets/droiddesk-mcp-connect-wizard.webp)
+
+*Choose your AI client in the DroidDesk connection wizard to see its setup instructions.*
+
 Use this connection information:
 
 | Setting | Value |

@@ -22,6 +22,10 @@ The device listing helps you choose a model, location and network connection. De
 
 DroidDesk MCP connects a compatible AI assistant to the phones you authorize. The assistant can inspect the screen, open apps and websites, tap controls, type text, scroll, and check what happened after an action.
 
+![DroidDesk Android automation dashboard with AI / MCP selected and the Connect AI button for connecting an assistant to a rented phone.](assets/droiddesk-mcp-dashboard.webp)
+
+*Open AI / MCP in the phone’s automation area to connect your assistant.*
+
 For example, you can ask:
 
 > On my selected DroidDesk phone, open droiddesk.io and find the weekly rental plan. Tell me the price shown and take a screenshot. Do not place an order.
