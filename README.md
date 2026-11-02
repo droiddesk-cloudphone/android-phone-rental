@@ -64,6 +64,8 @@ You can then launch the saved steps from **My Templates** in the phone’s autom
 
 Templates execute saved steps. If an app changes its interface or requests verification, a run may need attention. Check the result before relying on it, and keep passwords and one-time codes out of the template definition.
 
+For Auto-swipe with randomized pauses, repeatable workflows that reduce AI token usage, and registration flows with a connected SMS provider, read [Reduce AI Token Costs with DroidDesk Android Automation](articles/android-automation-templates-sms-verification.md).
+
 ## What you can do with a rented Android phone
 
 ### Real device testing

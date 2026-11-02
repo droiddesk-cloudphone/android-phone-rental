@@ -154,6 +154,8 @@ After a sequence works on the phone, ask the agent to save it as a private templ
 
 Open **My Templates** in the phone’s automation area, supply the parameters and run the saved steps. The template can run without AI involvement. It follows its saved sequence, so interface changes, verification prompts or missing inputs may still require attention. Review its result after execution.
 
+See [Android automation with fewer AI tokens](android-automation-templates-sms-verification.md) for Auto-swipe, scenarios built from saved templates, and an example of registration with SMS verification through a connected provider.
+
 ## What does DroidDesk MCP cost
 
 **There is no separate charge for MCP access: it is included in your DroidDesk phone rental.** Your rental plan still determines which apps and installation methods are available.
