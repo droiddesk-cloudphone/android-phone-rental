@@ -64,6 +64,8 @@ You can then launch the saved steps from **My Templates** in the phone’s autom
 
 Templates execute saved steps. If an app changes its interface or requests verification, a run may need attention. Check the result before relying on it, and keep passwords and one-time codes out of the template definition.
 
+Through MCP, your agent can also launch website lists and basic Auto-swipe with `run_automation_mode`. These configured runs execute without model calls at each step. Randomized swipe intervals and automatic likes remain separate dashboard options. See the [current MCP automation modes](articles/control-android-phone-with-ai.md#run-websites-and-auto-swipe-through-mcp).
+
 For Auto-swipe with randomized pauses, repeatable workflows that reduce AI token usage, and registration flows with a connected SMS provider, read [Reduce AI Token Costs with DroidDesk Android Automation](articles/android-automation-templates-sms-verification.md).
 
 ## What you can do with a rented Android phone

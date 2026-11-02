@@ -1,5 +1,7 @@
 # Reduce AI Token Costs with DroidDesk Android Automation
 
+*Updated 3 November 2026.*
+
 Scrolling through a feed is repetitive. Working out how to complete an unfamiliar registration form takes judgment. With [DroidDesk](https://droiddesk.io/), you can give those jobs different execution methods: use an AI agent to understand the task, then let a configured automation or saved template perform the repeatable steps on a real Android phone.
 
 **Auto-swipe and supported saved templates run without calling an AI model for each action.** Your agent can use tokens to create a template, launch it through MCP or review its result, while the saved sequence itself runs without AI. This makes long, predictable tasks a practical place to reduce model usage.
@@ -19,7 +21,8 @@ DroidDesk supports several ways to execute work:
 | Method | What performs the steps | Where AI usage remains |
 | --- | --- | --- |
 | Live AI control through MCP | Your AI agent decides the next action | Screen analysis, decisions and result review |
-| Auto-swipe | A configured automation performs swipes and optional supported like actions | Any separate assistance you request to configure or review the task |
+| Auto-swipe | Basic swipes through MCP; randomized pauses and optional supported likes through dashboard settings | Any separate assistance you request to configure or review the task |
+| Websites through MCP | A configured run opens the supplied URL list with chosen timing and pauses | Launching through an assistant and any separate result analysis |
 | Saved template | The executor follows saved actions with the supplied inputs | Creating, repairing or reviewing the template; an agent's launch request |
 | Saved scenario built from supported templates | The executor runs the configured stages | Planning the scenario, launching it through an agent and interpreting results |
 
@@ -67,7 +70,13 @@ A saved scenario connects several supported template stages into a larger task. 
 
 Through MCP, an AI client can list the saved scenarios available to its key, start a selected scenario and retrieve its status. The executor performs the stages without asking the model to decide every tap. You can return to the assistant for the result instead of watching each screen transition.
 
-The built-in Auto-swipe controls and the templates exposed through MCP are separate entry points. Configure Auto-swipe in the dashboard; use your agent to launch saved templates and scenarios that its connection actually lists.
+### Launch Websites and basic Auto-swipe through MCP
+
+The `run_automation_mode` tool now lets your agent start **Websites** (`url_list`) and basic **Auto-swipe** (`auto_swipe`) directly. Websites accepts up to 100 HTTP/HTTPS URLs with time ranges, pauses between sites and optional shuffle. It uses link depth zero. Auto-swipe opens an allowed app and performs a selected number of vertical swipes at a fixed interval.
+
+These modes run without model calls inside the sequence. Use `get_template_run` for progress and `stop_template_run` to request a stop. Reconnect your MCP client or start a new session if it has not picked up the tool.
+
+**The MCP configuration is more limited than the dashboard.** Randomized swipe intervals, automatic likes and the other advanced Auto-swipe options described above are not exposed by this MCP tool. Use the dashboard for those options. The [MCP guide](control-android-phone-with-ai.md#run-websites-and-auto-swipe-through-mcp) includes current limits and an example request.
 
 For long tasks, avoid requesting a fresh AI interpretation after every small step. Check completion and meaningful exceptions. If a run's outcome is unknown, inspect its status and the phone before starting another copy.
 
