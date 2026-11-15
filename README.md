@@ -88,17 +88,19 @@ Choose a phone hosted in an available location for regional mobile checks. Revie
 
 ## Android phone rental pricing
 
-Published starting prices checked on 2 November 2026:
+Published starting prices and Full Access options checked on 15 November 2026:
 
-| Rental period | Starting price per device | Base access |
-| --- | --- | --- |
-| 1 hour | $5 | Web browsers on the phone |
-| 3 hours | $7 | Web browsers on the phone |
-| 1 day | $15 | Standard apps and Google Play installation |
-| 1 week | $60 | Google Play, manual APK installation, supported eSIM and system settings |
-| 1 month | $180 | Same access as the weekly plan |
+| Rental period | Starting price per device | Access included in the starting price | Full Access |
+| --- | --- | --- | --- |
+| 1 hour | $5 | Web browsers only; no app installation | Not available |
+| 3 hours | $7 | Web browsers only; no app installation | Optional: +$10 at checkout |
+| 1 day | $15 | Standard apps and Google Play installation | Optional: +$10 at checkout for manual APK installation, supported eSIM and permitted system settings |
+| 1 week | $60 | Full Access | Included |
+| 1 month | $180 | Full Access | Included, when monthly rentals are available |
 
-Device, location and add-ons affect the final price. eSIM needs compatible hardware. Check the [current plans](https://droiddesk.io/plans) and selected device before paying.
+Full Access includes Google Play installation, manual APK installation, your own eSIM on devices labeled **Bring Your Own eSIM**, and permitted system settings. On the 3-hour plan, the add-on also enables app installation; on the 1-day plan, Google Play installation is already included.
+
+The +$10 add-on is charged in addition to the selected rental price. Device, location and add-ons affect the final price. Check the [current plans](https://droiddesk.io/plans), [Full Access permissions](https://droiddesk.io/help/available-plans-and-features) and selected device before paying.
 
 **DroidDesk MCP is included in the rental price.** Your chosen AI service and any connected third-party SMS provider have their own charges. MCP does not expand the application access included in your plan.
 
@@ -120,9 +122,21 @@ No. DroidDesk rentals use physical Android phones. You access the handset remote
 
 Yes. Open the remote web interface or use the desktop client. You can also connect a compatible AI agent through MCP. [Web access instructions](https://droiddesk.io/help/droiddesk-web-app).
 
+### Which plans offer Full Access and how much does it cost
+
+Full Access costs an additional **$10** on the **3-hour and 1-day plans**, selected at checkout. It is **included in the 1-week and 1-month plans** and **unavailable on the 1-hour plan**.
+
+### Can I install apps from Google Play
+
+Google Play installation is included in the 1-day, 1-week and 1-month plans. On the 3-hour plan, add Full Access for $10. The 1-hour plan and the 3-hour plan without Full Access do not permit app installation.
+
 ### Can I install my own APK
 
-Manual APK installation is included in the weekly and monthly plans. Full Access add-ons are listed for selected shorter plans. Check the [plan details](https://droiddesk.io/plans) for your rental.
+Manual APK installation requires Full Access: add it for $10 to a 3-hour or 1-day rental, or choose a weekly or monthly rental where it is included. The 1-day plan's included Google Play access does not include manual APK installation.
+
+### Does Full Access give me unrestricted control
+
+Full Access does not provide root access. Some security settings remain locked, and the physical camera stays blocked. Installing your own eSIM also requires a device labeled **Bring Your Own eSIM**. See the [Full Access permissions and restrictions](https://droiddesk.io/help/available-plans-and-features).
 
 ### Do I need to install an MCP server locally
 
